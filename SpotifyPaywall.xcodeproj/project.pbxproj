@@ -17,6 +17,7 @@
 		93E0DAC5292CF1950008E246 /* SpotifyPaywallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0DAC4292CF1950008E246 /* SpotifyPaywallUITests.swift */; };
 		93E0DAC7292CF1950008E246 /* SpotifyPaywallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0DAC6292CF1950008E246 /* SpotifyPaywallUITestsLaunchTests.swift */; };
 		93E0DAD4292CF2A90008E246 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0DAD3292CF2A90008E246 /* BannerCell.swift */; };
+		93E0DAD6292CF92C0008E246 /* BannerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E0DAD5292CF92C0008E246 /* BannerInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		93E0DAC4292CF1950008E246 /* SpotifyPaywallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyPaywallUITests.swift; sourceTree = "<group>"; };
 		93E0DAC6292CF1950008E246 /* SpotifyPaywallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyPaywallUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		93E0DAD3292CF2A90008E246 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		93E0DAD5292CF92C0008E246 /* BannerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				93E0DAA5292CF1930008E246 /* SceneDelegate.swift */,
 				93E0DAA7292CF1930008E246 /* PaywallViewController.swift */,
 				93E0DAD3292CF2A90008E246 /* BannerCell.swift */,
+				93E0DAD5292CF92C0008E246 /* BannerInfo.swift */,
 				93E0DAA9292CF1930008E246 /* Main.storyboard */,
 				93E0DAAC292CF1940008E246 /* Assets.xcassets */,
 				93E0DAAE292CF1940008E246 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				93E0DAA8292CF1930008E246 /* PaywallViewController.swift in Sources */,
 				93E0DAD4292CF2A90008E246 /* BannerCell.swift in Sources */,
+				93E0DAD6292CF92C0008E246 /* BannerInfo.swift in Sources */,
 				93E0DAA4292CF1930008E246 /* AppDelegate.swift in Sources */,
 				93E0DAA6292CF1930008E246 /* SceneDelegate.swift in Sources */,
 			);

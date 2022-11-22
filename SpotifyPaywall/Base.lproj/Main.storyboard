@@ -34,7 +34,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="nGS-7r-bgb">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerCell" id="nGS-7r-bgb" customClass="BannerCell" customModule="SpotifyPaywall" customModuleProvider="target">
                                         <rect key="frame" x="15.666666666666666" y="0.0" width="362" height="190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hdF-YU-Spi">
@@ -73,6 +73,11 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="362" height="190"/>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="q2r-py-KtP" id="ULD-aY-UCX"/>
+                                            <outlet property="thumbnailImageView" destination="hoY-9F-IIB" id="iH4-fC-9sM"/>
+                                            <outlet property="titleLabel" destination="VUw-g1-VBZ" id="x9T-hM-dk3"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -114,6 +119,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EsD-db-ICH" secondAttribute="trailing" id="xPO-76-cvy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="EsD-db-ICH" id="oRA-ev-qzS"/>
+                        <outlet property="pageControl" destination="qCa-DE-0Rh" id="8yQ-rW-2Bl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
